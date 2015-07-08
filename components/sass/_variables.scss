@@ -1,7 +1,16 @@
-@import url(http://fonts.googleapis.com/css?family=Exo:200,400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:200,400,600,800);
 
 @include border-box-sizing; // uses border box sizing like old IE
 
+
+//$shorthand: 12 1/4 fluid float inside;
+
+$susy: (
+  columns: 12,  // The number of columns in your grid
+  container: 60em,   
+  gutters: 1/4, 
+  gutter-position: inside, 
+);
 
 $blue   : #064642;
 $green  : #45B29D;
@@ -12,6 +21,9 @@ $pink   : #CD0069;
 $purple : #6C71C4;
 $dark   : #000000;
 $light  : #FFFFFF;
+
+
+
 
 
 $backgroundColor : $light;
