@@ -12,6 +12,13 @@ $susy: (
   gutter-position: inside, 
 );
 
+$narrowscreen: 400px;
+$standartscreen: 650px;
+$smallscreen: max-width 650px;
+$mediumscreen: 650px 960px;
+$widescreen: 1200px;
+
+
 $blue   : #064642;
 $green  : #45B29D;
 $yellow : #EFC94C;

@@ -5,8 +5,11 @@ header #nav
 
 	.navbar
 	{
+		@include container;
+
 		.brand
-		{
+		{	
+			@include span(4);
 			float: left;
 			font-weight: $bold;
 			font-family: $headFont;
@@ -22,11 +25,22 @@ header #nav
 				display: inline-block;
 				padding: 10px;
 				font-size: 1.5em;
+
+				@include breakpoint($smallscreen) 
+				{
+    				font-size: 1.2em;
+    				span
+    				{
+    					display: none;
+    				}
+  				}
+
 			} // a
 		} //brand
 
 		ul
 		{
+			@include span(8 at 4 of 12);
 			li
 			{
 				float: left;
@@ -57,6 +71,26 @@ header #nav
 						background-color: $navHover;
 						color: $blue;
 					}//hover
+
+					@include breakpoint($smallscreen)
+					{
+						span {display: none;}
+						&::after
+							{
+								content: '\000a0';
+								display: block;
+							}
+						padding: 10px 18px;
+					}
+
+					@include breakpoint($mediumscreen)
+					{
+						padding-left: 10px;
+						&.icon
+						{
+							background-image: none;
+						}
+					}
 
 					
 				}//a 
