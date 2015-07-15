@@ -2,6 +2,8 @@ header #nav
 {
 	@include clearfix;
 	@include background-image(linear-gradient(top, lighten($navBackground, 10), $navBackground));
+	width: 100%;
+	z-index: 100;
 
 	.navbar
 	{
@@ -90,6 +92,12 @@ header #nav
 						{
 							background-image: none;
 						}
+					}//breakpoint
+
+					&.active
+					{
+						background-color: $red;
+						color: $light;
 					}
 
 					
