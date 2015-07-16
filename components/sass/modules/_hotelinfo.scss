@@ -1,7 +1,7 @@
 #hotelinfo
 {
-	@include background-image(linear-gradient(top, darken($purple, 20), green));
-	color: $light;
+	@include background-image(linear-gradient(top, $orange, $yellow));
+	color: darken($orange, 40);
 
 	#{headings()}
 	{
@@ -38,7 +38,7 @@
 
 			h2
 			{
-				color: lighten($purple, 20);
+				color: $darrk;
 				font-size: 1.3em;
 				line-height: 110%;
 				padding: 10px 0;
@@ -89,7 +89,7 @@
 
 	#greenprogram
 	{
-		background-color: rgba(darken($green, 30), .5);
+		background-color: rgba(lighten($green, 30), .5);
 		margin-top: 20px;
 
 		@include breakpoint($widescreen)

@@ -70,8 +70,8 @@ header #nav
 
 					&:hover
 					{
-						background-color: $navHover;
-						color: $blue;
+						background-color: $red;
+						color: $light;
 					}//hover
 
 					@include breakpoint($smallscreen)

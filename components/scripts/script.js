@@ -1,6 +1,8 @@
 $(function() {
   var topoffset = 43;
 
+  var isTouch = 'ontouchstart' in document.documentElement;
+
   //window height
   var wheight = $(window).height(); //get height of the window
 
@@ -74,7 +76,9 @@ $(function() {
   }).setPin('#nav').addTo(controller);
 
 
-  //room animations
+ if(!isTouch)
+ {
+ 	 //room animations
   var roomOrigin = {
     bottom: -700,
     opacity: 0,
@@ -164,6 +168,7 @@ $(function() {
     .setTween(roomtween)
     .addTo(controller)
 
+ }
 
   //atractions animation
   var attractionstween = TweenMax.staggerFromTo('#attractions article', 1, { opacity: 0, scale: 0 },

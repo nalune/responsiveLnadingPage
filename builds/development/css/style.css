@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Exo+2:200,400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,900);
 /* line 5, ../../../../../.rvm/gems/ruby-2.1.5/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,15 +73,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../../../components/sass/_base.scss */
 body {
-  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 1em/1.5em "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: white;
   color: black;
 }
 
 /* line 8, ../../../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #0ea49b;
+  font: 200 1.5em/1.5em "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #42ca16;
   font-weight: 600;
 }
 
@@ -129,7 +129,7 @@ body {
 
 /* line 3, ../../../components/sass/modules/_intro.scss */
 header .fullheight {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/splash_hotelphoto.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/splash_new.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -151,8 +151,8 @@ header .fullheight .hgroup {
 header .fullheight .hgroup h1 {
   color: white;
   font-size: 5em;
-  font-weight: 800;
-  line-heght: .8em;
+  font-weight: 600;
+  line-height: .8em;
   text-shadow: black 0 0 20px;
   text-align: center;
 }
@@ -251,7 +251,7 @@ header .fullheight .hgroup p img {
 
 /* line 3, ../../../components/sass/modules/_dining.scss */
 #dining h1, #dining h2 {
-  color: #df4848;
+  color: #e21e3a;
   padding: 10px 0;
 }
 /* line 10, ../../../components/sass/modules/_dining.scss */
@@ -290,7 +290,7 @@ header .fullheight .hgroup p img {
   #dining section h2 {
     font-size: 1.2em;
     line-height: 120%;
-    color: #cd0069;
+    color: #e21e3a;
   }
   /* line 47, ../../../components/sass/modules/_dining.scss */
   #dining section p {
@@ -302,17 +302,17 @@ header .fullheight .hgroup p img {
 /* line 55, ../../../components/sass/modules/_dining.scss */
 #dining #roomservice {
   margin-top: 20px;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZlZmFmMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #fefaf0));
-  background-image: -moz-linear-gradient(top, #ffffff, #fefaf0);
-  background-image: -webkit-linear-gradient(top, #ffffff, #fefaf0);
-  background-image: linear-gradient(to bottom, #ffffff, #fefaf0);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
   padding-left: 9.16667%;
   padding-right: 9.16667%;
   text-align: center;
-  border-top: 1px solid #df4848;
-  border-bottom: 1px solid #df4848;
+  border-top: 1px solid #e21e3a;
+  border-bottom: 1px solid #e21e3a;
 }
 
 /* line 1, ../../../components/sass/modules/_events.scss */
@@ -396,7 +396,7 @@ footer {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #333333;
+  background: #0c1c05;
   padding: 30px 0;
 }
 /* line 12, ../../../../../.rvm/gems/ruby-2.1.5@global/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
@@ -428,13 +428,13 @@ footer #socialmedia ul li img {
 
 /* line 1, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNhM2Y5MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwODAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjNGUxNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UzZTFjMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3a3f90), color-stop(100%, #008000));
-  background-image: -moz-linear-gradient(top, #3a3f90, #008000);
-  background-image: -webkit-linear-gradient(top, #3a3f90, #008000);
-  background-image: linear-gradient(to bottom, #3a3f90, #008000);
-  color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec4e17), color-stop(100%, #e3e1c1));
+  background-image: -moz-linear-gradient(top, #ec4e17, #e3e1c1);
+  background-image: -webkit-linear-gradient(top, #ec4e17, #e3e1c1);
+  background-image: linear-gradient(to bottom, #ec4e17, #e3e1c1);
+  color: #331004;
 }
 /* line 6, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo h1, #hotelinfo h2, #hotelinfo h3, #hotelinfo h4, #hotelinfo h5, #hotelinfo h6 {
@@ -480,7 +480,7 @@ footer #socialmedia ul li img {
 }
 /* line 39, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo #usefulinfo section h2 {
-  color: #b5b7e1;
+  color: #0c1c05;
   font-size: 1.3em;
   line-height: 110%;
   padding: 10px 0;
@@ -510,7 +510,7 @@ footer #socialmedia ul li img {
 }
 /* line 75, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo #usefulinfo section#arrivalinfo ul li strong {
-  color: #efc94c;
+  color: #e3e1c1;
 }
 /* line 80, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo #usefulinfo section#arrivalinfo ul li:first-child {
@@ -518,7 +518,7 @@ footer #socialmedia ul li img {
 }
 /* line 90, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo #greenprogram {
-  background-color: rgba(26, 68, 60, 0.5);
+  background-color: rgba(68, 158, 28, 0.5);
   margin-top: 20px;
   border: 1px solid white;
   padding: 20px;
@@ -539,12 +539,12 @@ footer #socialmedia ul li img {
 
 /* line 1, ../../../components/sass/modules/_nav.scss */
 header #nav {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhNzU2ZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzA2NDY0MiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzOWMxMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI0NmUwYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0a756e), color-stop(100%, #064642));
-  background-image: -moz-linear-gradient(top, #0a756e, #064642);
-  background-image: -webkit-linear-gradient(top, #0a756e, #064642);
-  background-image: linear-gradient(to bottom, #0a756e, #064642);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #339c11), color-stop(100%, #246e0c));
+  background-image: -moz-linear-gradient(top, #339c11, #246e0c);
+  background-image: -webkit-linear-gradient(top, #339c11, #246e0c);
+  background-image: linear-gradient(to bottom, #339c11, #246e0c);
   width: 100%;
   z-index: 100;
 }
@@ -580,10 +580,10 @@ header #nav .navbar .brand {
   padding-right: 0.83333%;
   float: left;
   font-weight: 600;
-  font-family: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 200 1.5em/1.5em "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   text-transform: uppercase;
-  background: #df4848;
+  background: #e21e3a;
 }
 /* line 22, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar .brand a {
@@ -621,7 +621,7 @@ header #nav .navbar ul li {
 /* line 50, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a {
   color: white;
-  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 1em/1.5em "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   display: inline-block;
   padding: 10px 10px 10px 45px;
@@ -652,8 +652,8 @@ header #nav .navbar ul li a.attractions {
 }
 /* line 71, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a:hover {
-  background-color: #efc94c;
-  color: #064642;
+  background-color: #e21e3a;
+  color: white;
 }
 @media (max-width: 650px) {
   /* line 50, ../../../components/sass/modules/_nav.scss */
@@ -682,7 +682,7 @@ header #nav .navbar ul li a:hover {
 }
 /* line 97, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.active {
-  background-color: #df4848;
+  background-color: #e21e3a;
   color: white;
 }
 
@@ -754,7 +754,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 30, ../../../components/sass/modules/_rooms.scss */
 #rooms .room .content h1 {
-  color: #df4848;
+  color: #e21e3a;
 }
 /* line 35, ../../../components/sass/modules/_rooms.scss */
 #rooms #piccadilly {
@@ -819,14 +819,9 @@ header #nav .navbar ul li a.active {
 
 /* line 1, ../../../components/sass/modules/_welcome.scss */
 #welcome {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmYzk0YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UyN2EzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efc94c), color-stop(100%, #e27a3f));
-  background-image: -moz-linear-gradient(top, #efc94c, #e27a3f);
-  background-image: -webkit-linear-gradient(top, #efc94c, #e27a3f);
-  background-image: linear-gradient(to bottom, #efc94c, #e27a3f);
+  background: #e3e1c1;
 }
-/* line 5, ../../../components/sass/modules/_welcome.scss */
+/* line 6, ../../../components/sass/modules/_welcome.scss */
 #welcome article {
   text-align: center;
   max-width: 70%;
@@ -840,7 +835,7 @@ header #nav .navbar ul li a.active {
   clear: both;
 }
 @media (min-width: 650px) {
-  /* line 5, ../../../components/sass/modules/_welcome.scss */
+  /* line 6, ../../../components/sass/modules/_welcome.scss */
   #welcome article {
     max-width: 33em;
     margin-left: auto;
@@ -854,11 +849,11 @@ header #nav .navbar ul li a.active {
     clear: both;
   }
 }
-/* line 16, ../../../components/sass/modules/_welcome.scss */
+/* line 17, ../../../components/sass/modules/_welcome.scss */
 #welcome article h1 {
   font-weight: normal;
   line-height: 100%;
-  color: #a24a19;
+  color: #331004;
   padding: 10px 0;
 }
 /* line 24, ../../../components/sass/_mixins.scss */
@@ -870,7 +865,7 @@ header #nav .navbar ul li a.active {
 #welcome article .gallery:after {
   clear: both;
 }
-/* line 30, ../../../components/sass/modules/_welcome.scss */
+/* line 31, ../../../components/sass/modules/_welcome.scss */
 #welcome article .gallery img {
   -moz-border-radius: 20%;
   -webkit-border-radius: 20%;
@@ -878,7 +873,7 @@ header #nav .navbar ul li a.active {
   display: none;
 }
 @media (min-width: 650px) {
-  /* line 30, ../../../components/sass/modules/_welcome.scss */
+  /* line 31, ../../../components/sass/modules/_welcome.scss */
   #welcome article .gallery img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -921,7 +916,7 @@ header #nav .navbar ul li a.active {
   }
 }
 @media (min-width: 650px) and (max-width: 960px) {
-  /* line 30, ../../../components/sass/modules/_welcome.scss */
+  /* line 31, ../../../components/sass/modules/_welcome.scss */
   #welcome article .gallery img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -956,7 +951,7 @@ header #nav .navbar ul li a.active {
     margin-right: -100%;
     clear: none;
   }
-  /* line 47, ../../../components/sass/modules/_welcome.scss */
+  /* line 48, ../../../components/sass/modules/_welcome.scss */
   #welcome article .gallery img.hidesm {
     display: none;
   }

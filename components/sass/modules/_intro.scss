@@ -2,8 +2,8 @@ header
 {
 	.fullheight
 	{
-		@include backImage('../images/hotel/splash_hotelphoto.jpg');
-		    @include display-flex();
+		@include backImage('../images/hotel/splash_new.jpg');
+	@include display-flex();
     @include align-items(center);
     @include justify-content(center);
 
@@ -15,8 +15,8 @@ header
 			{
 				color: $light;
 				font-size: 5em;
-				font-weight: $heavy;
-				line-heght: .8em;
+				font-weight: $bold;
+				line-height: .8em;
 
 				@include text-shadow($dark 0 0 20px);
 				text-align: center;

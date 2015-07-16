@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Exo+2:200,400,600,800);
+//@import url(http://fonts.googleapis.com/css?family=Roboto:200,400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,900);
 
 @include border-box-sizing; // uses border box sizing like old IE
 
@@ -19,16 +20,26 @@ $mediumscreen: 650px 960px;
 $widescreen: 1200px;
 
 
-$blue   : #064642;
-$green  : #45B29D;
-$yellow : #EFC94C;
-$orange : #E27A3F;
-$red    : #DF4848;
+// $blue   : #064642;
+// $green  : #45B29D;
+// $yellow : #EFC94C;
+// $orange : #E27A3F;
+// $red    : #DF4848;
+// $pink   : #CD0069;
+// $purple : #6C71C4;
+// $dark   : #000000;
+// $light  : #FFFFFF;
+
+$blue   : #246E0C;
+$green  : #0C1C05;
+$yellow : #E3E1C1;
+$orange : #EC4E17;
+$red    : #E21E3A;
 $pink   : #CD0069;
 $purple : #6C71C4;
 $dark   : #000000;
 $light  : #FFFFFF;
-
+$darrk : #0C1C05;
 
 
 
@@ -43,7 +54,7 @@ $headersubbg     : $dark;
 
 //Font variables
 
-$fontfamily : 'Exo 2', 'Helvetica Neue', Helvetica, Arial,  sans-serif;
+$fontfamily : 'Titillium Web', 'Helvetica Neue', Helvetica, Arial,  sans-serif;
 
 $thin : 200;
 $normal : 400;
